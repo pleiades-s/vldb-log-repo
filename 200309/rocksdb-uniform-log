@@ -1,0 +1,62 @@
+Run YSCB
+Data Directory = /vldb/ycsb-rocksdb-data
+Workload Type = workloada
+Record Count = 15GB
+Opertation Count = 40GB
+requestdistribution = uniform
+RocksDB Log Path = /home/pleiadex/Workplace/log/rocksdb-log
+[OVERALL], RunTime(ms), 164321
+[OVERALL], Throughput(ops/sec), 91284.74145118396
+[TOTAL_GCS_G1_Young_Generation], Count, 276
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 622
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.3785273945509095
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 276
+[TOTAL_GC_TIME], Time(ms), 622
+[TOTAL_GC_TIME_%], Time(%), 0.3785273945509095
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 676608.0
+[CLEANUP], MinLatency(us), 676352
+[CLEANUP], MaxLatency(us), 676863
+[CLEANUP], 95thPercentileLatency(us), 676863
+[CLEANUP], 99thPercentileLatency(us), 676863
+[INSERT], Operations, 15000000
+[INSERT], AverageLatency(us), 9.784540933333334
+[INSERT], MinLatency(us), 4
+[INSERT], MaxLatency(us), 149247
+[INSERT], 95thPercentileLatency(us), 11
+[INSERT], 99thPercentileLatency(us), 28
+[INSERT], Return=OK, 15000000
+[OVERALL], RunTime(ms), 3008270
+[OVERALL], Throughput(ops/sec), 13296.678822047223
+[TOTAL_GCS_G1_Young_Generation], Count, 1023
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 2006
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.06668284429256682
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 1023
+[TOTAL_GC_TIME], Time(ms), 2006
+[TOTAL_GC_TIME_%], Time(%), 0.06668284429256682
+[READ], Operations, 19999997
+[READ], AverageLatency(us), 68.33716230057435
+[READ], MinLatency(us), 1
+[READ], MaxLatency(us), 144127
+[READ], 95thPercentileLatency(us), 161
+[READ], 99thPercentileLatency(us), 220
+[READ], Return=OK, 19999997
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 69024.0
+[CLEANUP], MinLatency(us), 68992
+[CLEANUP], MaxLatency(us), 69055
+[CLEANUP], 95thPercentileLatency(us), 69055
+[CLEANUP], 99thPercentileLatency(us), 69055
+[UPDATE], Operations, 20000003
+[UPDATE], AverageLatency(us), 79.78210718268392
+[UPDATE], MinLatency(us), 8
+[UPDATE], MaxLatency(us), 141055
+[UPDATE], 95thPercentileLatency(us), 181
+[UPDATE], 99thPercentileLatency(us), 247
+[UPDATE], Return=OK, 20000003

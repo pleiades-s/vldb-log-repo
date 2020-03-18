@@ -1,0 +1,21 @@
+2020.03.11
+
+[실험 요약]
+workloada에서 update only로 수정해서 uniform, zipfian 분포 실험하기
+
+[실험 기록]
+
+1. uniform: 14시 46분 시작 16시 15분 종료
+
+1) ycsb-log: log/ycsb-updateonly-uniform-log
+2) iostat-log: uniform-updateOnly_iostat
+3) rocksdb-log: (시간 참고해서 정리하기)
+
+2. Zipfian: 16시 39분 시작 17시 50분 종료 
+
+1) ycsb-log: log/ycsb-updateonly-zipfian-log
+2) iostat-log: zipfian-updateOnly-iostat
+3) rocksdb-log: (시간 참고해서 정리하기)
+
+[실험 결과]
+
